@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0CF448829B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF448729B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift */; };
+		A0CF448A29B7A06500B6F99C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF448929B7A06500B6F99C /* ContentView.swift */; };
+		A0CF448C29B7A06700B6F99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CF448B29B7A06700B6F99C /* Assets.xcassets */; };
+		A0CF448F29B7A06700B6F99C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CF448E29B7A06700B6F99C /* Preview Assets.xcassets */; };
+		A0CF449129B7A06700B6F99C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF449029B7A06700B6F99C /* Persistence.swift */; };
+		A0CF449429B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0CF449229B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodeld */; };
+		A0CF449E29B7A06700B6F99C /* Les_Bougies_de_GrigriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF449D29B7A06700B6F99C /* Les_Bougies_de_GrigriTests.swift */; };
+		A0CF44A829B7A06700B6F99C /* Les_Bougies_de_GrigriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF44A729B7A06700B6F99C /* Les_Bougies_de_GrigriUITests.swift */; };
+		A0CF44AA29B7A06700B6F99C /* Les_Bougies_de_GrigriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF44A929B7A06700B6F99C /* Les_Bougies_de_GrigriUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0CF449A29B7A06700B6F99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CF447C29B7A06500B6F99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CF448329B7A06500B6F99C;
+			remoteInfo = "Les Bougies de Grigri";
+		};
+		A0CF44A429B7A06700B6F99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CF447C29B7A06500B6F99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CF448329B7A06500B6F99C;
+			remoteInfo = "Les Bougies de Grigri";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0CF448429B7A06500B6F99C /* Les Bougies de Grigri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Bougies de Grigri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CF448729B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Les_Bougies_de_GrigriApp.swift; sourceTree = "<group>"; };
+		A0CF448929B7A06500B6F99C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0CF448B29B7A06700B6F99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0CF448E29B7A06700B6F99C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0CF449029B7A06700B6F99C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A0CF449329B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Les_Bougies_de_Grigri.xcdatamodel; sourceTree = "<group>"; };
+		A0CF449929B7A06700B6F99C /* Les Bougies de GrigriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Les Bougies de GrigriTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CF449D29B7A06700B6F99C /* Les_Bougies_de_GrigriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Les_Bougies_de_GrigriTests.swift; sourceTree = "<group>"; };
+		A0CF44A329B7A06700B6F99C /* Les Bougies de GrigriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Les Bougies de GrigriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CF44A729B7A06700B6F99C /* Les_Bougies_de_GrigriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Les_Bougies_de_GrigriUITests.swift; sourceTree = "<group>"; };
+		A0CF44A929B7A06700B6F99C /* Les_Bougies_de_GrigriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Les_Bougies_de_GrigriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CF448129B7A06500B6F99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CF449629B7A06700B6F99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CF44A029B7A06700B6F99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0CF447B29B7A06500B6F99C = {
+			isa = PBXGroup;
+			children = (
+				A0CF448629B7A06500B6F99C /* Les Bougies de Grigri */,
+				A0CF449C29B7A06700B6F99C /* Les Bougies de GrigriTests */,
+				A0CF44A629B7A06700B6F99C /* Les Bougies de GrigriUITests */,
+				A0CF448529B7A06500B6F99C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CF448529B7A06500B6F99C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CF448429B7A06500B6F99C /* Les Bougies de Grigri.app */,
+				A0CF449929B7A06700B6F99C /* Les Bougies de GrigriTests.xctest */,
+				A0CF44A329B7A06700B6F99C /* Les Bougies de GrigriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CF448629B7A06500B6F99C /* Les Bougies de Grigri */ = {
+			isa = PBXGroup;
+			children = (
+				A0CF448729B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift */,
+				A0CF448929B7A06500B6F99C /* ContentView.swift */,
+				A0CF448B29B7A06700B6F99C /* Assets.xcassets */,
+				A0CF449029B7A06700B6F99C /* Persistence.swift */,
+				A0CF449229B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodeld */,
+				A0CF448D29B7A06700B6F99C /* Preview Content */,
+			);
+			path = "Les Bougies de Grigri";
+			sourceTree = "<group>";
+		};
+		A0CF448D29B7A06700B6F99C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0CF448E29B7A06700B6F99C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0CF449C29B7A06700B6F99C /* Les Bougies de GrigriTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CF449D29B7A06700B6F99C /* Les_Bougies_de_GrigriTests.swift */,
+			);
+			path = "Les Bougies de GrigriTests";
+			sourceTree = "<group>";
+		};
+		A0CF44A629B7A06700B6F99C /* Les Bougies de GrigriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CF44A729B7A06700B6F99C /* Les_Bougies_de_GrigriUITests.swift */,
+				A0CF44A929B7A06700B6F99C /* Les_Bougies_de_GrigriUITestsLaunchTests.swift */,
+			);
+			path = "Les Bougies de GrigriUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CF448329B7A06500B6F99C /* Les Bougies de Grigri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CF44AD29B7A06700B6F99C /* Build configuration list for PBXNativeTarget "Les Bougies de Grigri" */;
+			buildPhases = (
+				A0CF448029B7A06500B6F99C /* Sources */,
+				A0CF448129B7A06500B6F99C /* Frameworks */,
+				A0CF448229B7A06500B6F99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Les Bougies de Grigri";
+			productName = "Les Bougies de Grigri";
+			productReference = A0CF448429B7A06500B6F99C /* Les Bougies de Grigri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CF449829B7A06700B6F99C /* Les Bougies de GrigriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CF44B029B7A06700B6F99C /* Build configuration list for PBXNativeTarget "Les Bougies de GrigriTests" */;
+			buildPhases = (
+				A0CF449529B7A06700B6F99C /* Sources */,
+				A0CF449629B7A06700B6F99C /* Frameworks */,
+				A0CF449729B7A06700B6F99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CF449B29B7A06700B6F99C /* PBXTargetDependency */,
+			);
+			name = "Les Bougies de GrigriTests";
+			productName = "Les Bougies de GrigriTests";
+			productReference = A0CF449929B7A06700B6F99C /* Les Bougies de GrigriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0CF44A229B7A06700B6F99C /* Les Bougies de GrigriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CF44B329B7A06700B6F99C /* Build configuration list for PBXNativeTarget "Les Bougies de GrigriUITests" */;
+			buildPhases = (
+				A0CF449F29B7A06700B6F99C /* Sources */,
+				A0CF44A029B7A06700B6F99C /* Frameworks */,
+				A0CF44A129B7A06700B6F99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CF44A529B7A06700B6F99C /* PBXTargetDependency */,
+			);
+			name = "Les Bougies de GrigriUITests";
+			productName = "Les Bougies de GrigriUITests";
+			productReference = A0CF44A329B7A06700B6F99C /* Les Bougies de GrigriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CF447C29B7A06500B6F99C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A0CF448329B7A06500B6F99C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A0CF449829B7A06700B6F99C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A0CF448329B7A06500B6F99C;
+					};
+					A0CF44A229B7A06700B6F99C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A0CF448329B7A06500B6F99C;
+					};
+				};
+			};
+			buildConfigurationList = A0CF447F29B7A06500B6F99C /* Build configuration list for PBXProject "Les Bougies de Grigri" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0CF447B29B7A06500B6F99C;
+			productRefGroup = A0CF448529B7A06500B6F99C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CF448329B7A06500B6F99C /* Les Bougies de Grigri */,
+				A0CF449829B7A06700B6F99C /* Les Bougies de GrigriTests */,
+				A0CF44A229B7A06700B6F99C /* Les Bougies de GrigriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CF448229B7A06500B6F99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CF448F29B7A06700B6F99C /* Preview Assets.xcassets in Resources */,
+				A0CF448C29B7A06700B6F99C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CF449729B7A06700B6F99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CF44A129B7A06700B6F99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CF448029B7A06500B6F99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CF449129B7A06700B6F99C /* Persistence.swift in Sources */,
+				A0CF448A29B7A06500B6F99C /* ContentView.swift in Sources */,
+				A0CF449429B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodeld in Sources */,
+				A0CF448829B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CF449529B7A06700B6F99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CF449E29B7A06700B6F99C /* Les_Bougies_de_GrigriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CF449F29B7A06700B6F99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CF44A829B7A06700B6F99C /* Les_Bougies_de_GrigriUITests.swift in Sources */,
+				A0CF44AA29B7A06700B6F99C /* Les_Bougies_de_GrigriUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CF449B29B7A06700B6F99C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CF448329B7A06500B6F99C /* Les Bougies de Grigri */;
+			targetProxy = A0CF449A29B7A06700B6F99C /* PBXContainerItemProxy */;
+		};
+		A0CF44A529B7A06700B6F99C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CF448329B7A06500B6F99C /* Les Bougies de Grigri */;
+			targetProxy = A0CF44A429B7A06700B6F99C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0CF44AB29B7A06700B6F99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0CF44AC29B7A06700B6F99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0CF44AE29B7A06700B6F99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Les Bougies de Grigri/Preview Content\"";
+				DEVELOPMENT_TEAM = JGA9DL8HHT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-xGhost.Les-Bougies-de-Grigri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0CF44AF29B7A06700B6F99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Les Bougies de Grigri/Preview Content\"";
+				DEVELOPMENT_TEAM = JGA9DL8HHT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-xGhost.Les-Bougies-de-Grigri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0CF44B129B7A06700B6F99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGA9DL8HHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-xGhost.Les-Bougies-de-GrigriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Les Bougies de Grigri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Les Bougies de Grigri";
+			};
+			name = Debug;
+		};
+		A0CF44B229B7A06700B6F99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGA9DL8HHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-xGhost.Les-Bougies-de-GrigriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Les Bougies de Grigri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Les Bougies de Grigri";
+			};
+			name = Release;
+		};
+		A0CF44B429B7A06700B6F99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGA9DL8HHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-xGhost.Les-Bougies-de-GrigriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Les Bougies de Grigri";
+			};
+			name = Debug;
+		};
+		A0CF44B529B7A06700B6F99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGA9DL8HHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-xGhost.Les-Bougies-de-GrigriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Les Bougies de Grigri";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CF447F29B7A06500B6F99C /* Build configuration list for PBXProject "Les Bougies de Grigri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CF44AB29B7A06700B6F99C /* Debug */,
+				A0CF44AC29B7A06700B6F99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CF44AD29B7A06700B6F99C /* Build configuration list for PBXNativeTarget "Les Bougies de Grigri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CF44AE29B7A06700B6F99C /* Debug */,
+				A0CF44AF29B7A06700B6F99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CF44B029B7A06700B6F99C /* Build configuration list for PBXNativeTarget "Les Bougies de GrigriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CF44B129B7A06700B6F99C /* Debug */,
+				A0CF44B229B7A06700B6F99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CF44B329B7A06700B6F99C /* Build configuration list for PBXNativeTarget "Les Bougies de GrigriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CF44B429B7A06700B6F99C /* Debug */,
+				A0CF44B529B7A06700B6F99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0CF449229B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0CF449329B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodel */,
+			);
+			currentVersion = A0CF449329B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodel */;
+			path = Les_Bougies_de_Grigri.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0CF447C29B7A06500B6F99C /* Project object */;
+}
