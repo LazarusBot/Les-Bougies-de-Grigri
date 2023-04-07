@@ -23,7 +23,6 @@
 		A07279EC29BFC05300583B99 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07279EB29BFC05300583B99 /* SearchView.swift */; };
 		A07279F029C3931100583B99 /* CartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07279EF29C3931100583B99 /* CartRow.swift */; };
 		A0CF448829B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF448729B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift */; };
-		A0CF448A29B7A06500B6F99C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF448929B7A06500B6F99C /* ContentView.swift */; };
 		A0CF448C29B7A06700B6F99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CF448B29B7A06700B6F99C /* Assets.xcassets */; };
 		A0CF448F29B7A06700B6F99C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CF448E29B7A06700B6F99C /* Preview Assets.xcassets */; };
 		A0CF449129B7A06700B6F99C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF449029B7A06700B6F99C /* Persistence.swift */; };
@@ -73,7 +72,6 @@
 		A07279EF29C3931100583B99 /* CartRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRow.swift; sourceTree = "<group>"; };
 		A0CF448429B7A06500B6F99C /* Les Bougies de Grigri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Bougies de Grigri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CF448729B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Les_Bougies_de_GrigriApp.swift; sourceTree = "<group>"; };
-		A0CF448929B7A06500B6F99C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A0CF448B29B7A06700B6F99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0CF448E29B7A06700B6F99C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0CF449029B7A06700B6F99C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -173,7 +171,6 @@
 				A0CF44B729B8ECB600B6F99C /* View */,
 				A0CF44B629B8ECAC00B6F99C /* Model */,
 				A0CF448729B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift */,
-				A0CF448929B7A06500B6F99C /* ContentView.swift */,
 				A0CF448B29B7A06700B6F99C /* Assets.xcassets */,
 				A0CF449029B7A06700B6F99C /* Persistence.swift */,
 				A0CF449229B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodeld */,
@@ -372,7 +369,6 @@
 				A07279E829BCBE8E00583B99 /* BougiesModelView.swift in Sources */,
 				A0FDA28F29C7D9E800C2A5D9 /* CartView.swift in Sources */,
 				A0CF449129B7A06700B6F99C /* Persistence.swift in Sources */,
-				A0CF448A29B7A06500B6F99C /* ContentView.swift in Sources */,
 				A00D638529CA52F100B4BD42 /* CardViewFav.swift in Sources */,
 				A07279E329BBE09C00583B99 /* ProductDetail.swift in Sources */,
 				A0CF44B929B8EF2A00B6F99C /* Home.swift in Sources */,
