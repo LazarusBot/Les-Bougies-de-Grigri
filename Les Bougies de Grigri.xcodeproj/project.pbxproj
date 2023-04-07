@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00D638529CA52F100B4BD42 /* CardViewFav.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D638429CA52F100B4BD42 /* CardViewFav.swift */; };
+		A03F1C1929C8BD62008943CC /* DetailDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03F1C1829C8BD62008943CC /* DetailDataModel.swift */; };
+		A03F1C1B29C93249008943CC /* LikedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03F1C1A29C93249008943CC /* LikedPage.swift */; };
+		A040130C29CDE83100F873CF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A040130B29CDE83100F873CF /* SplashView.swift */; };
+		A040131029D6338C00F873CF /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A040130F29D6338C00F873CF /* PaymentButton.swift */; };
+		A040131229D650B900F873CF /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A040131129D650B900F873CF /* CircleBackground.swift */; };
+		A06BEDA129CD05870026ED48 /* NumberAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BEDA029CD05870026ED48 /* NumberAnimated.swift */; };
+		A07279DF29BA4EDF00583B99 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07279DE29BA4EDF00583B99 /* Item.swift */; };
+		A07279E129BAA7A000583B99 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07279E029BAA7A000583B99 /* CardView.swift */; };
+		A07279E329BBE09C00583B99 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07279E229BBE09C00583B99 /* ProductDetail.swift */; };
+		A07279E529BC1CD800583B99 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07279E429BC1CD800583B99 /* CustomShape.swift */; };
+		A07279E829BCBE8E00583B99 /* BougiesModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07279E729BCBE8E00583B99 /* BougiesModelView.swift */; };
+		A07279EA29BCE94200583B99 /* Main Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07279E929BCE94100583B99 /* Main Page.swift */; };
+		A07279EC29BFC05300583B99 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07279EB29BFC05300583B99 /* SearchView.swift */; };
+		A07279F029C3931100583B99 /* CartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07279EF29C3931100583B99 /* CartRow.swift */; };
 		A0CF448829B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF448729B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift */; };
 		A0CF448A29B7A06500B6F99C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF448929B7A06500B6F99C /* ContentView.swift */; };
 		A0CF448C29B7A06700B6F99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CF448B29B7A06700B6F99C /* Assets.xcassets */; };
@@ -16,6 +31,11 @@
 		A0CF449E29B7A06700B6F99C /* Les_Bougies_de_GrigriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF449D29B7A06700B6F99C /* Les_Bougies_de_GrigriTests.swift */; };
 		A0CF44A829B7A06700B6F99C /* Les_Bougies_de_GrigriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF44A729B7A06700B6F99C /* Les_Bougies_de_GrigriUITests.swift */; };
 		A0CF44AA29B7A06700B6F99C /* Les_Bougies_de_GrigriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF44A929B7A06700B6F99C /* Les_Bougies_de_GrigriUITestsLaunchTests.swift */; };
+		A0CF44B929B8EF2A00B6F99C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF44B829B8EF2A00B6F99C /* Home.swift */; };
+		A0CF44BB29BA41FF00B6F99C /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF44BA29BA41FF00B6F99C /* TabButton.swift */; };
+		A0FDA28B29C7B51A00C2A5D9 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FDA28A29C7B51A00C2A5D9 /* CartButton.swift */; };
+		A0FDA28D29C7CF7600C2A5D9 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FDA28C29C7CF7600C2A5D9 /* CartManager.swift */; };
+		A0FDA28F29C7D9E800C2A5D9 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FDA28E29C7D9E800C2A5D9 /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A00D638429CA52F100B4BD42 /* CardViewFav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewFav.swift; sourceTree = "<group>"; };
+		A03F1C1829C8BD62008943CC /* DetailDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDataModel.swift; sourceTree = "<group>"; };
+		A03F1C1A29C93249008943CC /* LikedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPage.swift; sourceTree = "<group>"; };
+		A040130B29CDE83100F873CF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A040130F29D6338C00F873CF /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		A040131129D650B900F873CF /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		A06BEDA029CD05870026ED48 /* NumberAnimated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberAnimated.swift; sourceTree = "<group>"; };
+		A07279DE29BA4EDF00583B99 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A07279E029BAA7A000583B99 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A07279E229BBE09C00583B99 /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		A07279E429BC1CD800583B99 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		A07279E729BCBE8E00583B99 /* BougiesModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BougiesModelView.swift; sourceTree = "<group>"; };
+		A07279E929BCE94100583B99 /* Main Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main Page.swift"; sourceTree = "<group>"; };
+		A07279EB29BFC05300583B99 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A07279EF29C3931100583B99 /* CartRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRow.swift; sourceTree = "<group>"; };
 		A0CF448429B7A06500B6F99C /* Les Bougies de Grigri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Bougies de Grigri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CF448729B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Les_Bougies_de_GrigriApp.swift; sourceTree = "<group>"; };
 		A0CF448929B7A06500B6F99C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +83,11 @@
 		A0CF44A329B7A06700B6F99C /* Les Bougies de GrigriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Les Bougies de GrigriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CF44A729B7A06700B6F99C /* Les_Bougies_de_GrigriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Les_Bougies_de_GrigriUITests.swift; sourceTree = "<group>"; };
 		A0CF44A929B7A06700B6F99C /* Les_Bougies_de_GrigriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Les_Bougies_de_GrigriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0CF44B829B8EF2A00B6F99C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A0CF44BA29BA41FF00B6F99C /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		A0FDA28A29C7B51A00C2A5D9 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		A0FDA28C29C7CF7600C2A5D9 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		A0FDA28E29C7D9E800C2A5D9 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +115,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A03F1C1D29C93277008943CC /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				A07279EB29BFC05300583B99 /* SearchView.swift */,
+				A0FDA28E29C7D9E800C2A5D9 /* CartView.swift */,
+				A03F1C1A29C93249008943CC /* LikedPage.swift */,
+				A0CF44B829B8EF2A00B6F99C /* Home.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		A06BED9D29CCDA510026ED48 /* CartFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A0FDA28A29C7B51A00C2A5D9 /* CartButton.swift */,
+				A06BEDA029CD05870026ED48 /* NumberAnimated.swift */,
+				A07279EF29C3931100583B99 /* CartRow.swift */,
+				A040130F29D6338C00F873CF /* PaymentButton.swift */,
+			);
+			path = CartFiles;
+			sourceTree = "<group>";
+		};
+		A07279E629BCBE5200583B99 /* Model View */ = {
+			isa = PBXGroup;
+			children = (
+				A07279E729BCBE8E00583B99 /* BougiesModelView.swift */,
+				A03F1C1829C8BD62008943CC /* DetailDataModel.swift */,
+			);
+			path = "Model View";
+			sourceTree = "<group>";
+		};
 		A0CF447B29B7A06500B6F99C = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +169,16 @@
 		A0CF448629B7A06500B6F99C /* Les Bougies de Grigri */ = {
 			isa = PBXGroup;
 			children = (
+				A07279E629BCBE5200583B99 /* Model View */,
+				A0CF44B729B8ECB600B6F99C /* View */,
+				A0CF44B629B8ECAC00B6F99C /* Model */,
 				A0CF448729B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift */,
 				A0CF448929B7A06500B6F99C /* ContentView.swift */,
 				A0CF448B29B7A06700B6F99C /* Assets.xcassets */,
 				A0CF449029B7A06700B6F99C /* Persistence.swift */,
 				A0CF449229B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodeld */,
 				A0CF448D29B7A06700B6F99C /* Preview Content */,
+				A0FDA28C29C7CF7600C2A5D9 /* CartManager.swift */,
 			);
 			path = "Les Bougies de Grigri";
 			sourceTree = "<group>";
@@ -131,6 +206,31 @@
 				A0CF44A929B7A06700B6F99C /* Les_Bougies_de_GrigriUITestsLaunchTests.swift */,
 			);
 			path = "Les Bougies de GrigriUITests";
+			sourceTree = "<group>";
+		};
+		A0CF44B629B8ECAC00B6F99C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A07279DE29BA4EDF00583B99 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0CF44B729B8ECB600B6F99C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A06BED9D29CCDA510026ED48 /* CartFiles */,
+				A03F1C1D29C93277008943CC /* TabViews */,
+				A0CF44BA29BA41FF00B6F99C /* TabButton.swift */,
+				A07279E029BAA7A000583B99 /* CardView.swift */,
+				A07279E229BBE09C00583B99 /* ProductDetail.swift */,
+				A07279E429BC1CD800583B99 /* CustomShape.swift */,
+				A07279E929BCE94100583B99 /* Main Page.swift */,
+				A00D638429CA52F100B4BD42 /* CardViewFav.swift */,
+				A040130B29CDE83100F873CF /* SplashView.swift */,
+				A040131129D650B900F873CF /* CircleBackground.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +363,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07279E529BC1CD800583B99 /* CustomShape.swift in Sources */,
+				A040130C29CDE83100F873CF /* SplashView.swift in Sources */,
+				A040131029D6338C00F873CF /* PaymentButton.swift in Sources */,
+				A040131229D650B900F873CF /* CircleBackground.swift in Sources */,
+				A0FDA28D29C7CF7600C2A5D9 /* CartManager.swift in Sources */,
+				A06BEDA129CD05870026ED48 /* NumberAnimated.swift in Sources */,
+				A07279E829BCBE8E00583B99 /* BougiesModelView.swift in Sources */,
+				A0FDA28F29C7D9E800C2A5D9 /* CartView.swift in Sources */,
 				A0CF449129B7A06700B6F99C /* Persistence.swift in Sources */,
 				A0CF448A29B7A06500B6F99C /* ContentView.swift in Sources */,
+				A00D638529CA52F100B4BD42 /* CardViewFav.swift in Sources */,
+				A07279E329BBE09C00583B99 /* ProductDetail.swift in Sources */,
+				A0CF44B929B8EF2A00B6F99C /* Home.swift in Sources */,
+				A07279F029C3931100583B99 /* CartRow.swift in Sources */,
+				A0CF44BB29BA41FF00B6F99C /* TabButton.swift in Sources */,
+				A07279DF29BA4EDF00583B99 /* Item.swift in Sources */,
+				A07279EC29BFC05300583B99 /* SearchView.swift in Sources */,
+				A03F1C1929C8BD62008943CC /* DetailDataModel.swift in Sources */,
+				A03F1C1B29C93249008943CC /* LikedPage.swift in Sources */,
+				A07279EA29BCE94200583B99 /* Main Page.swift in Sources */,
 				A0CF449429B7A06700B6F99C /* Les_Bougies_de_Grigri.xcdatamodeld in Sources */,
+				A07279E129BAA7A000583B99 /* CardView.swift in Sources */,
 				A0CF448829B7A06500B6F99C /* Les_Bougies_de_GrigriApp.swift in Sources */,
+				A0FDA28B29C7B51A00C2A5D9 /* CartButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +548,14 @@
 				DEVELOPMENT_TEAM = JGA9DL8HHT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Grigri;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,11 +580,14 @@
 				DEVELOPMENT_TEAM = JGA9DL8HHT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Grigri;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
